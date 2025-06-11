@@ -45,6 +45,21 @@ tw-story[tags~="video"] {
   min-width: 100%; 
   min-height: 100%;
   z-index: -100; /* Place the video behind everything */
+}
+
+/* Style the background where the video will appear */
+tw-story[tags~="video2"] {
+  background-color: transparent;
+}
+ 
+/* Style the video element */
+.background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100; /* Place the video behind everything */
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="black-cat-background" color="red"></tw-tag><tw-passagedata pid="1" name="Into the cave" tags="" position="725,350" size="100,100">&lt;img class=&quot;story-image-big&quot; src=&quot;./images/cave.jpg&quot; alt=&quot;a cave&quot; /&gt;
 I’d always been curious. To my own detriment, really. When I was younger, when we were visiting family in India, I went inside a cave. Took a torch and a couple of cousins, and down we [[went.]] </tw-passagedata><tw-passagedata pid="2" name="went." tags="" position="850,350" size="100,100">They turned back after a while, but I kept going.
 
@@ -282,15 +297,17 @@ I seriously considered stopping here. I reached up to the straps of my HRA, just
 
 [[I&#39;m tired. I&#39;m ready to give up.]]
 
-[[I want to keep fighting.]]</tw-passagedata><tw-passagedata pid="39" name="I&#39;m tired. I&#39;m ready to give up." tags="" position="4850,475" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[//We stand around you while you dream.
+[[I want to keep fighting.]]</tw-passagedata><tw-passagedata pid="39" name="I&#39;m tired. I&#39;m ready to give up." tags="video2" position="4850,475" size="100,100">&lt;video autoplay loop muted class=&quot;background-video&quot;&gt;
+&lt;source src=&quot;./video/let-you-in-2.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[//We stand around you while you dream.
 
 You can almost hear our words but you forget.
 
 This happens more and more now.
 
-You gave us the permission in your regulations.
-
-We wait in the stains.//]
+You gave us the permission in your regulations..//]
 
 
 I nodded, letting my ID fall to the ground. Started slowly undoing the straps. I wouldn’t see my family again, and neither would hundreds of others. I cried as I let the hopelessness overtake me. I would never get out, I would never-</tw-passagedata><tw-passagedata pid="40" name="I want to keep fighting." tags="" position="4975,350" size="100,100">I gripped my ID tighter, feeling renewed. I&#39;m still me. I wanted to stay. I wanted to keep going. I wanted to see my family again. I heard-
